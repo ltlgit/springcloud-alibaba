@@ -17,6 +17,7 @@
         <module>cloud-service</module>
         <module>cloud-consumer</module>
         <module>cloud-provider</module>
+        <module>cloud-provider_1</module>
     </modules>
 
     <properties>

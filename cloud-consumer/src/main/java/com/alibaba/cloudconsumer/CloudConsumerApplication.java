@@ -15,10 +15,10 @@ public class CloudConsumerApplication {
 		SpringApplication.run(CloudConsumerApplication.class, args);
 	}
 
-	@LoadBalanced
+	/*@LoadBalanced
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
-	}
+	}*/
 
 }

@@ -21,7 +21,7 @@
 		<artifactId>springcloud-alibaba</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cloud-provider</artifactId>
+	<artifactId>cloud-provider_1</artifactId>
 	<packaging>jar</packaging>
 	<dependencies>
 		<dependency>
