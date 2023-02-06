@@ -17,7 +17,10 @@
         <module>cloud-service</module>
         <module>cloud-consumer</module>
         <module>cloud-provider</module>
-        <module>cloud-provider_1</module>
+        <!--<module>cloud-provider_1</module>-->
+        <module>at-account-service</module>
+        <module>at-storage-service</module>
+        <module>at-trade-service</module>
     </modules>
 
     <properties>

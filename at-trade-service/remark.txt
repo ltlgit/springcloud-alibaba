@@ -1,0 +1,6 @@
+1.分布式事务AT访问url：http://127.0.0.1:8673/order/buy?userId=2333333&goodId=4333333&accountId=1234&num=100000
+2.访问前需要启动：seata\bin\seata-server.bat, nacos\bin\startup.cmd和mysql数据库systemctl start mysqld.service
+3.在seata\conf右击git bash here,执行sh nacos-config.sh -h 127.0.0.1 -p 8848 -g SEATA_GROUP  -u nacos -w nacos
+4.seata\config.txt,seata\conf\nacos-config.sh需要在seata官网下载
+5.trade是消费者，需要先启动服务端account,storage
+6.暂报java.sql.SQLException: io.seata.core.exception.RmTransactionException: Runtime，后续研究
